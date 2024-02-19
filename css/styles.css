@@ -1,0 +1,147 @@
+/*************************/
+/********* colors ********/
+/*************************/
+header{
+    height: 100svh;
+}
+section.hero{
+    height: calc(100svh - 78px);
+}
+/*************************/
+/********* hero **********/
+/*************************/
+section.hero .container .row .images{
+    position: relative;
+}
+section.hero .container .row .images img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.hero .container .row .img_user img{
+    position: absolute;
+    top: 21%;
+    right: 21%;
+    border: 20px solid white;
+    width: 370px;
+    height: 378px;
+    border-radius: 324px;
+    background-color: #eef0f9;
+
+}
+/*************************/
+/********* about ********/
+/*************************/
+section.about .container .row .images{
+    position: relative;
+}
+section.about .container .row .images .circle{
+    position: absolute;
+    bottom: 80%;
+    right: 76%;
+    width: 196px;
+    height: 196px;
+    border-radius: 148px;
+    background-color: transparent;
+    border: 23px solid #0fbf61;
+}
+/*************************/
+/********* progress ******/
+/*************************/
+section.rating .container .row .progress-bars{
+    width: 250px;
+    height: 250px;
+    background: conic-gradient(#0fbf61, #e7e2e2 0deg);
+    position: relative;
+    border: 2px solid #0fbf61;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 7px 20px rgba(22, 22, 22, 0.699);
+}
+section.rating .container .row .progress-bars::before{
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background-color: #e7e2e2;
+    border-radius: 50%;
+}
+section.rating .container .row .progress-bars .value{
+    position: relative;
+}
+/*************************/
+/********* services ******/
+/*************************/
+section.services .container .row .post .thumbnail img{
+    border: 2px solid #0fbf61;
+    border-radius: 50%;
+    padding: 6px;
+}
+section.services .container .row .post .btn-primary{
+    background-color: #0fbf61;
+}
+section.services .container .row .post .btn-primary:hover{
+    background-color: white;
+    color: black;
+}
+section.services .container .row .post{
+    width: 300px;
+    height: 380px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px rgba(65, 61, 61, 0.781);
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+section.services .container .row .post:hover{
+    background-color: #0fbf61;
+    color: white;
+
+}
+/*************************/
+/********* skill ********/
+/************************/
+section.skill .container p a.btn-primary{
+    margin-left: 70%;
+}
+section.skill .container .row .progress{
+    height: 6px;
+    width: 90%;
+}
+/* ************************/
+/********* review ********/
+/*************************/
+section.review .container .post{
+    width: 80%;
+    height: 390px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px rgba(65, 61, 61, 0.781);
+    background-color: #ffffff;
+}
+/* ************************/
+/********* contact *******/
+/************************/
+section.contact .container .row input{
+    height: 70px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 15px 0;
+    font-size: large;
+    padding: 0px 15px;
+}
+section.contact .container .message textarea{
+    height: 180px;
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 15px 0;
+    font-size: large;
+    padding: 5px 10px;
+}
+/* ************************/
+/********* footer ********/
+/************************/
+section.footer .container .row .text{
+    margin-left: 32%;
+}
