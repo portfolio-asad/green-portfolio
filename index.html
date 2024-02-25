@@ -14,8 +14,8 @@
   <!-- header -->
   <header>
     <!-- navigation -->
-    <nav class="navbar my-1 navbar-expand-lg">
-      <div class="container">
+    <div class="container">
+      <nav class="navbar my-1 navbar-expand-lg">
         <a class="mx-2 text-large text-capitalize text-bold text-black" aria-current="page" href="">port<span class="bg-primary px-1 rounded-pills text-white">folio</span></a>
         <button class="navbar-toggler" 
         type="button" 
@@ -46,39 +46,36 @@
               <a class="nav-link mx-3 text-black text-capitalize" href="#contact">contact us</a>
             </li>
           </ul>
-          <a class="btn bg-secondry text-primary text-bold text-capitalize me-0" href="">hire me!</a>
+          <a class="btn bg-secondry text-primary text-capitalize me-0" href="">hire me!</a>
         </div>
-      </div>
-    </nav>
-    <!-- //navigation -->
-    <!-- hero -->
-    <section id="hero" class="hero">
-      <div class="container h-100">
-        <div class="row h-100 d-flex align-items-center">
-          <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="details">
-              <span class="btn bg-secondry text-primary text-capitalize">welcome! i'm</span>
-              <h1 class="text-capitalize text-larger mt-4 mb-0 text-bold">wilkerson harden</h1>
-              <p class="text-capitalize text-bold text-black">web developer & ux designer</p>
-              <p class="text-capitalize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente est repellendus dicta quidem sed quam magni blanditiis omnis facere laborum!</p>
-              <div class="button my-4 py-4">
-                <a class="btn-primary bg-primary text-white text-bold text-capitalize me-2" href="">hire me!</a>
-                <a class="btn-secondry text-black text-bold text-capitalize me-0" href="">explore</a>
+      </nav>
+      <!-- //navigation -->
+        <!-- hero -->
+      <section id="hero" class="hero">
+        <div class="container h-100">
+          <div class="row h-100 d-flex align-items-center">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="details">
+                <span class="bg-secondry p-15 text-primary text-capitalize">welcome! i'm</span>
+                <h1 class="text-capitalize text-larger mt-4 mb-0 text-bold">wilkerson harden</h1>
+                <p class="text-capitalize text-black mt-2">web developer & ux designer</p>
+                <p class="text-capitalize my-4 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente est repellendus dicta quidem sed quam magni blanditiis omnis facere laborum!</p>
+                <p class="my-4 py-4">
+                  <a class="btn-primary bg-primary text-white text-capitalize me-2" href="">hire me!</a>
+                  <a class="btn-secondry text-black text-capitalize me-0" href="">explore</a>
+                </p>
               </div>
             </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-6">
-              <div class="images">
-                <img src="imgs/home (2).png" class="img-fluid" alt="">
-                <div class="img_user">
-                  <p class="text-center"><img src="imgs/home__1.png" class="img-fluid" alt=""></p>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="images">
+                    <p class="text-center"><img src="imgs/hero_user_pic.png" class="img-fluid" alt=""></p>
                 </div>
-              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- //hero -->
+      </section>
+      <!-- //hero -->
+    </div>
   </header>
   <!-- //header -->
   <!-- body -->
@@ -99,12 +96,12 @@
           </div>
           <div class="col-sm-12 col-md-6 col-lg-6">
             <div class="details ms-4">
-              <span class="btn bg-secondry text-primary text-uppercase">about me</span>
-              <h1 class="text-capitalize text-large my-4 text-bold">why you hire me for your next project?</h1>
+              <span class="bg-secondry p-15 text-primary text-uppercase">about me</span>
+              <h1 class="text-capitalize text-large my-4 py-2 text-bold">why you hire me for your next project?</h1>
               <p class="text-capitalize text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quis dolore similique ipsam dolor facere. Labore, nostrum? Ipsam, beatae debitis.</p>
               <p class="text-capitalize mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente est repellendus dicta quidem sed quam magni blanditiis omnis facere laborum!</p>
               <div class="button my-4 py-4">
-                <a class="btn-primary bg-primary text-white text-bold text-capitalize me-0" href="">Download CV</a>
+                <a class="btn-primary bg-primary text-white text-capitalize me-0" href="">Download CV</a>
               </div>
             </div>
           </div>
@@ -116,38 +113,54 @@
     <section id="rating" class="rating my-4 py-4">
       <div class="container h-100">
         <div class="row h-100 d-flex align-items-center">
-          <div class="col-sm-6 col-md-6 col-lg-3 mb-4 mb-md-4 mb-lg-0">
-            <div class="progress-bars" style="background: conic-gradient(#0fbf61 180deg, #e7e2e2 0deg);">
-              <div class="value">
-                <h1 class="text-bold text-large">50%</h1>
-                <p class="text-bold text-medium">Web design</p>
+          <!-- progress-bar -->
+          <div class="col-sm-6 col-md-6 col-lg-3 mb-4 mb-md-4 mb-lg-0 d-flex justify-content-center">
+            <div class="progres">
+              <div class="progress-bars" style="background: conic-gradient(#0fbf61 180deg, #fff 0deg);">
+                <div class="value">
+                  <h1 class="text-bold text-large">50%</h1>
+                  <p class="text-bold text-medium">Web design</p>
+                </div>
               </div>
             </div>
-           </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 mb-4 mb-md-4 mb-lg-0">
-            <div class="progress-bars" style="background: conic-gradient(#0fbf61 280deg, #e7e2e2 0deg);">
-              <div class="value">
-                <h1 class="text-bold text-large">70%</h1>
-                <p class="text-bold text-medium">Development</p>
+          </div>
+           <!-- //progress-bar -->
+           <!-- progress-bar -->
+          <div class="col-sm-6 col-md-6 col-lg-3 mb-4 mb-md-4 mb-lg-0 d-flex justify-content-center">
+            <div class="progres">
+              <div class="progress-bars" style="background: conic-gradient(#0fbf61 280deg, #fff 0deg);">
+                <div class="value">
+                  <h1 class="text-bold text-large">70%</h1>
+                  <p class="text-bold text-medium">Development</p>
+                </div>
               </div>
             </div>
-           </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 mb-4 mb-md-4 mb-lg-0">
-            <div class="progress-bars" style="background: conic-gradient(#0fbf61 310deg, #e7e2e2 0deg);">
-              <div class="value">
-                <h1 class="text-bold text-large">90%</h1>
-                <p class="text-bold text-medium">Experience</p>
+          </div>
+           <!-- //progress-bar -->
+           <!-- progress-bar -->
+          <div class="col-sm-6 col-md-6 col-lg-3 mb-4 mb-md-4 mb-lg-0 d-flex justify-content-center">
+            <div class="progres">
+              <div class="progress-bars" style="background: conic-gradient(#0fbf61 310deg, #fff 0deg);">
+                <div class="value">
+                  <h1 class="text-bold text-large">90%</h1>
+                  <p class="text-bold text-medium">Experience</p>
+                </div>
               </div>
             </div>
-           </div>
-          <div class="col-sm-6 col-md-6 col-lg-3 mb-4 mb-md-4 mb-lg-0">
-            <div class="progress-bars" style="background: conic-gradient(#0fbf61 280deg, #e7e2e2 0deg);">
-              <div class="value">
-                <h1 class="text-bold text-large">80%</h1>
-                <p class="text-bold text-medium">Secure</p>
+          </div>
+           <!-- //progress-bar -->
+           <!-- progress-bar -->
+          <div class="col-sm-6 col-md-6 col-lg-3 mb-4 mb-md-4 mb-lg-0 d-flex justify-content-center">
+            <div class="progres">
+              <div class="progress-bars" style="background: conic-gradient(#0fbf61 280deg, #fff 0deg);">
+                <div class="value">
+                  <h1 class="text-bold text-large">80%</h1>
+                  <p class="text-bold text-medium">Secure</p>
+                </div>
               </div>
             </div>
-           </div>
+          </div>
+           <!-- //progress-bar -->
         </div>
       </div>
     </section>
@@ -156,8 +169,8 @@
     <section id="services" class="services my-4 py-4">
       <div class="container">
         <div class="details text-center">
-          <span class="btn bg-secondry text-primary text-bold text-uppercase">my services</span>
-          <h1 class="text-capitalize text-bold text-large my-3">my provided features</h1>
+          <span class="bg-secondry p-15 text-primary text-uppercase">my services</span>
+          <h1 class="text-capitalize text-large my-4 py-2">my provided features</h1>
         </div>
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4">
@@ -212,7 +225,7 @@
               <h4 class="mt-4 text-capitalize text-bold">web Development</h4>
               <span class="text-large text-primary">- - -</span>
               <p class=" mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium quisquam Lorem ipsum dolor sit</p>
-              <span href="" class="btn-primary text-capitalize">read more <i class="fa fa-arrow-right"></i></span>
+              <a href="" class="btn-primary text-capitalize">read more <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4">
@@ -234,10 +247,10 @@
     <section id="skill" class="skill py-4 my-4">
       <div class="container">
         <p>
-          <span class="btn text-primary bg-secondry text-bold text-uppercase">skill</span>
+          <span class="text-primary p-15 bg-secondry text-uppercase">skill</span>
           <a href="" class="btn-primary text-capitalize text-white bg-primary">hire me</a>
         </p>
-        <h2 class="text-capitalize text-bold text-black my-3">my expertise</h2>
+        <h2 class="text-capitalize text-bold text-black my-4 py-2">my expertise</h2>
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4 my-4">
             <h1 class="text-black">95%</h1>
@@ -295,8 +308,8 @@
     <section id="portfolio" class="portfolio py-4">
       <div class="container ">
         <div class="details text-center my-4">
-          <span class="btn bg-secondry text-uppercase text-primary py-3 text-bold">portfolio</span>
-          <h2 class="text-black text-bold my-3 text-bold text-capitalize">my work samples</h2>
+          <span class="p-15 bg-secondry text-uppercase text-primary py-3">portfolio</span>
+          <h2 class="text-black text-bold my-4 py-2 text-bold text-capitalize">my work samples</h2>
           <a href="" class="mx-2 text-black text-medium text-uppercase">all</a>
           <a href="" class="mx-2 text-black text-medium text-uppercase">branding</a>
           <a href="" class="mx-2 text-black text-medium text-uppercase">logo</a>
@@ -323,7 +336,7 @@
             <img src="imgs/work (1).png" class="img-fluid" alt="work samples">
           </div>
         </div>
-        <p class="text-center my-4"><a href="" class="btn-primary bg-primary text-capitalize text-white text-bold">view all</a></p>
+        <p class="text-center my-4"><a href="" class="btn-primary bg-primary text-capitalize text-white">view all</a></p>
       </div>
     </section>
     <!-- //portfolio -->
@@ -331,8 +344,8 @@
     <section id="review" class="review my-4 py-4">
       <div class="container">
         <div class="details text-center">
-          <span class="btn text-capitalize text-primary bg-secondry ">testimonials</span>
-          <h1 class="text-bold my-3 text-capitalize text-black">what people says </h1>
+          <span class="p-15 text-capitalize text-primary bg-secondry ">testimonials</span>
+          <h1 class="text-bold my-4 py-2 text-capitalize text-black">what people says </h1>
           <div class="post text-center mx-auto">
             <span class="text-primary my-4 text-bold text-larger">| |</span>
             <p class="max-width-600 mx-auto my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ea veritatis omnis sit maiores nesciunt asperiores odio non esse animi. Assumenda maiores aliquam facilis alias eos, expedita fugit ea ullam?</p>
@@ -347,8 +360,8 @@
     <section id="blog" class="blog my-4 py-4">
       <div class="container">
         <div class="details text-center">
-          <span class="btn text-uppercase text-primary bg-secondry">blog</span>
-          <h1 class="text-bold my-3 text-capitalize text-black">trendy news feeds</h1>
+          <span class="p-15 text-uppercase text-primary bg-secondry">blog</span>
+          <h1 class="text-bold my-4 py-2 text-capitalize text-black">trendy news feeds</h1>
         </div>
         <div class="row my-4">
           <div class="col-sm-12 col-md-6 col-lg-4 mb-4 mb-md-4 mb-lg-0">
@@ -370,8 +383,8 @@
     <section id="contact" class="contact py-4">
       <div class="container">
         <div class="details text-center">
-          <span class="btn text-uppercase text-primary bg-secondry">contact me</span>
-          <h1 class="text-bold my-3 text-capitalize text-black">send me a message</h1>
+          <span class="p-15 text-uppercase text-primary bg-secondry">contact me</span>
+          <h1 class="text-bold my-4 py-2 text-capitalize text-black">send me a message</h1>
         </div>
         <form action="">
           <div class="row">
@@ -393,7 +406,7 @@
           <div class="message">
             <p class="text-center"><textarea name="message" id="message" placeholder="Message" required rows="7"></textarea></p>
           </div>
-          <p class="text-center"><input type="submit" class="btn text-capitalize text-white text-bold bg-primary" value="Send Message"></p>
+          <p class="text-center"><input type="submit" class="btn text-white bg-primary" value="Send Message"></p>
         </form>
       </div>
     </section>
@@ -438,7 +451,7 @@
   </footer>
   <!-- //footer -->
     <script src="js/bootstrap.bundle.min.js"></script>
-     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 
 </body>
 </html>

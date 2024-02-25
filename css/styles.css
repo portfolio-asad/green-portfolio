@@ -7,6 +7,10 @@ header{
 section.hero{
     height: calc(100svh - 78px);
 }
+header{
+    background: url(../imgs/header_bg.png) top right no-repeat;
+    background-size: contain;
+}
 /*************************/
 /********* hero **********/
 /*************************/
@@ -33,6 +37,8 @@ section.hero .container .row .img_user img{
 /*************************/
 section.about .container .row .images{
     position: relative;
+    background: url(../imgs//slip.png) top right no-repeat;
+    background-size: contain;
 }
 section.about .container .row .images .circle{
     position: absolute;
@@ -50,7 +56,6 @@ section.about .container .row .images .circle{
 section.rating .container .row .progress-bars{
     width: 250px;
     height: 250px;
-    background: conic-gradient(#0fbf61, #e7e2e2 0deg);
     position: relative;
     border: 2px solid #0fbf61;
     border-radius: 50%;
@@ -64,7 +69,7 @@ section.rating .container .row .progress-bars::before{
     position: absolute;
     width: 230px;
     height: 230px;
-    background-color: #e7e2e2;
+    background-color: #ffffff;
     border-radius: 50%;
 }
 section.rating .container .row .progress-bars .value{
