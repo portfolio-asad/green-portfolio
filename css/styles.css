@@ -21,26 +21,16 @@ section.hero .container .row .images img{
     background-repeat: no-repeat;
     background-size: cover;
 }
-section.hero .container .row .img_user img{
-    position: absolute;
-    top: 21%;
-    right: 21%;
-    border: 20px solid white;
-    width: 370px;
-    height: 378px;
-    border-radius: 324px;
-    background-color: #eef0f9;
-
-}
 /*************************/
 /********* about ********/
 /*************************/
-section.about .container .row .images{
-    position: relative;
-    background: url(../imgs//slip.png) top right no-repeat;
-    background-size: contain;
+section.about .container .row .img{
+    background: url(../imgs/slip.png) top right no-repeat;
 }
-section.about .container .row .images .circle{
+section.about .container .row .img{
+    position: relative; 
+}
+section.about .container .row .img .circle{
     position: absolute;
     bottom: 80%;
     right: 76%;
