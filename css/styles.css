@@ -11,6 +11,16 @@ header{
     background: url(../imgs/header_bg.png) top right no-repeat;
     background-size: contain;
 }
+@media (max-width: 767px) {
+    header{
+        background: none;
+    }
+}
+@media (min-width: 1300px) {
+    header{
+        background-size: auto;
+    }
+}
 /*************************/
 /********* hero **********/
 /*************************/
@@ -26,6 +36,8 @@ section.hero .container .row .images img{
 /*************************/
 section.about .container .row .img{
     background: url(../imgs/slip.png) top right no-repeat;
+    padding: 25px 30px 0px 0;
+    background-size: 40%;
 }
 section.about .container .row .img{
     position: relative; 
@@ -68,6 +80,11 @@ section.rating .container .row .progress-bars .value{
 /*************************/
 /********* services ******/
 /*************************/
+section.services .container .row{
+    background: url(../imgs/slip.png) bottom right no-repeat;
+    padding: 0px 40px 30px 0;
+    background-size: 20%;
+}
 section.services .container .row .post .thumbnail img{
     border: 2px solid #0fbf61;
     border-radius: 50%;
@@ -83,6 +100,7 @@ section.services .container .row .post .btn-primary:hover{
 section.services .container .row .post{
     width: 340px;
     height: 410px;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 2px 2px 20px rgba(65, 61, 61, 0.781);
     padding: 30px 20px;
@@ -106,6 +124,10 @@ section.skill .container .row .progress{
 /* ************************/
 /********* review ********/
 /*************************/
+section.review{
+    background: url(../imgs/slip.png) top left no-repeat;
+    background-size: 15%;
+}
 section.review .container .post{
     width: 80%;
     height: 390px;
@@ -116,6 +138,10 @@ section.review .container .post{
 /* ************************/
 /********* contact *******/
 /************************/
+section.contact{
+    background: url(../imgs/slip.png) bottom right no-repeat;
+    background-size: 15%;
+}
 section.contact .container .row input{
     height: 70px;
     width: 90%;

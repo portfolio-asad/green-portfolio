@@ -462,7 +462,7 @@ a.btn-secondry, .btn-secondry{
 /*************************/
 a.btn-secondry:hover,.btn:hover,.btn-primary:hover,
 .btn-secondry:hover{
-    opacity: 0.80;
+    opacity: 0.85;
 }
 /******** Flexbox ********/
 /*************************/
