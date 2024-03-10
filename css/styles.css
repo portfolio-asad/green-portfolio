@@ -113,25 +113,170 @@ section.services .container .row .post h2{
 section.services .container .row .post h2:hover{
     color: white;
 }
-section.services .container .row .post:hover ,section.services .container .row .post .thumbnail img:hover{
+section.services .container .row .post:hover,
+section.services .container .row .post .thumbnail img:hover{
     background-color: #0fbf61;
     color: white;
     border: 2px solid #fff;
 }
 /*************************/
-/********* skill ********/
-/************************/
-section.skill .container p a.btn-primary{
-    /* margin-left: 60%; */
-}
-section.skill .container .row .progress{
-    height: 4px;
-    width: 90%;
-}
-/* ************************/
 /********* review ********/
-/*************************/
-section.review{
+/************************/
+.red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .carousel-indicators .active {
+    position: absolute;
+    top: 12% !important;
+    width: 53px;
+    height: 53px;
+    background: #222;
+  }
+  
+  .carousel-control {
+    position: relative;
+    width: 53px;
+    height: 53px;
+    font-size: 30px !important;
+    font-weight: 100;
+    line-height: 44px !important;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  }
+  
+  /* --------- END --------- */
+  
+  .carousel {
+    height: 245px;
+    min-width: 70px;
+    max-width: 70px;
+    text-align: center;
+  }
+  
+  /*For top Indicator*/
+  
+  .carousel-indicators-top {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-rightight: -19px;
+  }
+  
+  .carousel-indicators-top li {
+    background: #333333;
+  }
+  
+  .carousel-indicators-top .active {
+    background: #333333;
+  }
+  
+  /* vertical start*/
+  
+  .vertical .carousel-inner {
+    /*height: 74%;*/
+    padding-top: 0px;
+  }
+  
+  .carousel.vertical .item {
+    -webkit-transition: 0.6s ease-in-out top;
+    -moz-transition: 0.6s ease-in-out top;
+    -ms-transition: 0.6s ease-in-out top;
+    -o-transition: 0.6s ease-in-out top;
+    transition: 0.6s ease-in-out top;
+  }
+  
+  .carousel.vertical .active {
+    top: 0;
+  }
+  
+  .carousel.vertical .next {
+    top: 100%;
+  }
+  
+  .carousel.vertical .prev {
+    top: -100%;
+  }
+  
+  .carousel.vertical .next.left,
+  .carousel.vertical .prev.right {
+    top: 0;
+  }
+  
+  .carousel.vertical .active.left {
+    top: -100%;
+  }
+  
+  .carousel.vertical .active.right {
+    top: 100%;
+  }
+  
+  .carousel.vertical .item {
+    left: 0;
+  }
+  
+  /*Overwriten Bootstrap Classis*/
+  
+  .small-thumbnail {
+    display: block;
+    width: 50px;
+    padding: 4px;
+    margin-bottom: 1px;
+    line-height: 1.428571429;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .small-thumbnail img {
+    max-width: 100%;
+    width: 50px;
+  }
+  
+  .custom-carousel-inner {
+    overflow: hidden;
+    position: relative;
+    width: 53px !important;
+    height: 158px;
+  }
+  
+  .single-container {
+    width: 245px;
+    min-height: 245px;
+    max-height: 245px;
+  }
+  
+  .single-container img {
+    margin-top: 3px;
+    height: 240px;
+    max-height: 240px;
+    width: 240px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  } 
+/* section.review{
     background: url(../imgs/slip.png) top left no-repeat;
     background-size: 15%;
 }
@@ -141,7 +286,7 @@ section.review .container .post{
     border-radius: 5px;
     box-shadow: 2px 2px 20px rgba(65, 61, 61, 0.781);
     background-color: #ffffff;
-}
+} */
 /* ************************/
 /******** portfolio ******/
 /************************/
