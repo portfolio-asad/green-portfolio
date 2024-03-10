@@ -1,5 +1,5 @@
 /*************************/
-/********* colors ********/
+/********* header ********/
 /*************************/
 header{
     height: 100svh;
@@ -11,7 +11,7 @@ header{
     background: url(../imgs/header_bg.png) top right no-repeat;
     background-size: contain;
 }
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
     header{
         background: none;
     }
@@ -49,8 +49,8 @@ section.about .container .row .img .circle{
     width: 196px;
     height: 196px;
     border-radius: 148px;
-    background-color: transparent;
-    border: 23px solid #0fbf61;
+    background-color:transparent;
+    border: 22px solid #0fbf61;
 }
 /*************************/
 /********* progress ******/
@@ -90,32 +90,39 @@ section.services .container .row .post .thumbnail img{
     border-radius: 50%;
     padding: 6px;
 }
-section.services .container .row .post .btn-primary{
+section.services .container .row .post .btn{
     background-color: #0fbf61;
+    color: white;
 }
-section.services .container .row .post .btn-primary:hover{
+section.services .container .row .post .btn:hover{
     background-color: white;
     color: black;
 }
 section.services .container .row .post{
     width: 340px;
-    height: 410px;
+    height: auto;
     background-color: white;
     border-radius: 5px;
     box-shadow: 2px 2px 20px rgba(65, 61, 61, 0.781);
     padding: 30px 20px;
     margin: 20px 0;
 }
-section.services .container .row .post:hover{
+section.services .container .row .post h2{
+    color: #0fbf61;
+}
+section.services .container .row .post h2:hover{
+    color: white;
+}
+section.services .container .row .post:hover ,section.services .container .row .post .thumbnail img:hover{
     background-color: #0fbf61;
     color: white;
-
+    border: 2px solid #fff;
 }
 /*************************/
 /********* skill ********/
 /************************/
 section.skill .container p a.btn-primary{
-    margin-left: 60%;
+    /* margin-left: 60%; */
 }
 section.skill .container .row .progress{
     height: 4px;
@@ -134,6 +141,67 @@ section.review .container .post{
     border-radius: 5px;
     box-shadow: 2px 2px 20px rgba(65, 61, 61, 0.781);
     background-color: #ffffff;
+}
+/* ************************/
+/******** portfolio ******/
+/************************/
+.portfolio .container .navbar ul li{
+    list-style: none;
+    color: #747d8c;
+    padding: 5px;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+.portfolio .container .navbar ul li:hover{
+    color: #2f3542;
+    border-bottom: 2px solid #2f3542;
+    font-weight: bold;
+}
+.portfolio .container .portfolio_gallery{
+    flex-flow: row wrap;
+    gap: 30px;
+}
+.portfolio .container .portfolio_gallery .item{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+}
+.portfolio .container .portfolio_gallery .item img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    transition: 0.5s linear;
+}
+.portfolio .container .portfolio_gallery .item img:hover{
+    transform: scale(1.1);
+}
+.portfolio .container .portfolio_gallery .item .overlay{
+    width: 100%;
+    height: 100%;
+}
+.portfolio .container .portfolio_gallery .item .overlay{
+    display: none !important;
+}
+.portfolio .container .portfolio_gallery .item:hover .overlay{
+    display: flex !important;
+    width: 100%;
+    height: 100%;
+}
+.portfolio .container .portfolio_gallery .item:hover .overlay .btn{
+    z-index: 999;
+}
+/* ************************/
+/********* contact *******/
+/************************/
+.blog .container .row img{
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.blog .container .row img:hover{
+    transform: scale(1.1);
 }
 /* ************************/
 /********* contact *******/
@@ -163,6 +231,3 @@ section.contact .container .message textarea{
 /* ************************/
 /********* footer ********/
 /************************/
-section.footer .container .row .text{
-    margin-left: 32%;
-}
